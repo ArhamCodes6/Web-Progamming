@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="chapter4.css" type="text/css" />
+    <title>Digi Fest</title>
+    <style>
+        /* Add styles directly for demonstration */
+        .image-container {
+            text-align: right;
+            width: 100%; /* Full width of the section */
+            position: relative; /* Position relative for absolute positioning of images */
+            border: 2px solid #ccc; /* Add a border around the image container */
+            padding: 20px; /* Add padding inside the border */
+            box-sizing: border-box; /* Include padding and border in the element's total width and height */
+        }
+        
+        .image-container img {
+            position: absolute; /* Position the images absolutely */
+            right: 20px; /* Space from the right edge of the container */
+            top: 20px; /* Space from the top edge of the container */
+            max-width: 100px; /* Set a max width for the images */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Digi Fest</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#welcome">Welcome</a></li>
+            <li><a href="#lineup">Line Up</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="welcome">
+            <h2>Welcome</h2>
+            <p>Digi Fest is a celebration of digital and technology in the city of Cardiff. This year, we are celebrating ‘collaboration’, so come and find out about the latest collaborations that are happening in this historic and innovative city. They promise an educational and inspirational packed programme for all.</p>
+        </section>
+
+        <section id="lineup">
+            <div class="image-container">
+                <div class="text-content">
+                    <h2>Line Up</h2>
+                    <p>This section provides details about the lineup of events at Digi Fest. Stay tuned for more information!</p>
+                </div>
+                <img src="digi fest 1.png" alt="Event Image 1" title="Event 1" />
+                <img src="digi fest 2.jpeg" alt="Event Image 2" title="Event 2" />
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Digi Fest. All rights reserved.</p>
+    </footer>
+</body>

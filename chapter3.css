@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    margin: 15px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 320px; 
+}
+
+.filtered-image {
+    width: 100%;
+    height: auto;
+    filter: brightness(0.9) contrast(1.1) saturate(1.2);
+    transition: transform 0.3s;
+}
+
+.filtered-image:hover {
+    transform: scale(1.05);
+}
